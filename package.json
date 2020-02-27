@@ -1,0 +1,33 @@
+{
+  "name": "NodeJS-user-auth-tutorial",
+  "version": "1.0.0",
+  "description": "A user should be able to...",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/taimoorgit/NodeJS-user-auth-tutorial.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/taimoorgit/NodeJS-user-auth-tutorial/issues"
+  },
+  "homepage": "https://github.com/taimoorgit/NodeJS-user-auth-tutorial#readme",
+  "dependencies": {
+    "@hapi/joi": "^17.1.0",
+    "bcrypt": "^3.0.7",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.10",
+    "nodemon": "^2.0.2",
+    "stripe": "^8.14.0"
+  }
+}
